@@ -150,6 +150,7 @@
   },
   "Silence Bell" : false,
   "Rows" : 25,
+  "Draw Powerline Glyphs" : true,
   "Guid" : "4276FAFB-7114-41B8-90F5-6334E357D078",
   "Ansi 14 Color (Dark)" : {
     "Red Component" : 0.16966342926025391,
@@ -259,11 +260,11 @@
   },
   "Custom Command" : "No",
   "Background Color (Dark)" : {
-    "Red Component" : 0.11764705926179886,
-    "Color Space" : "sRGB",
-    "Blue Component" : 0.11764705926179886,
+    "Red Component" : 0.066666666666666666,
+    "Color Space" : "P3",
+    "Blue Component" : 0.11764704436063766,
     "Alpha Component" : 1,
-    "Green Component" : 0.11764705926179886
+    "Green Component" : 0.070588235294117646
   },
   "Ansi 9 Color" : {
     "Red Component" : 0.8659515380859375,
@@ -316,6 +317,7 @@
     "Alpha Component" : 1,
     "Green Component" : 0.77129161357879639
   },
+  "Animate Movement" : false,
   "Non-ASCII Anti Aliased" : true,
   "Ansi 10 Color" : {
     "Red Component" : 0.3450070321559906,
@@ -536,7 +538,7 @@
     "Alpha Component" : 1,
     "Green Component" : 0.7607843279838562
   },
-  "Normal Font" : "FiraCode-Regular 16",
+  "Normal Font" : "FiraCodeNFM-Reg 19",
   "Unlimited Scrollback" : false,
   "Ansi 12 Color (Light)" : {
     "Red Component" : 0.4029005765914917,
