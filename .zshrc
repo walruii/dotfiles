@@ -9,7 +9,6 @@ plugins=(
     vi-mode
     zsh-autosuggestions
     zsh-syntax-highlighting
-    zsh-completions
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -34,7 +33,6 @@ function zle-keymap-select {
 }
 zle -N zle-keymap-select
 
-
 # aliases
 
 # alias "cd"="z"
@@ -54,6 +52,7 @@ export MANPAGER='nvim +Man!'
 # using fzf for fuzzy finding
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+# seting up nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
@@ -62,3 +61,7 @@ export NVM_DIR="$HOME/.nvm"
 if [ -d "${HOME}/.local/bin" ] && [[ ":${PATH}:" != *":${HOME}/.local/bin:"* ]]; then
     PATH="${HOME}/.local/bin:${PATH}"
 fi
+
+# setting up pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
